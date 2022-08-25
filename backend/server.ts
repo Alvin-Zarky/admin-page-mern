@@ -4,3 +4,4 @@ import colors from "colors"
 
 dotenv.config()
 
+console.log("Hello world")
