@@ -1,0 +1,39 @@
+
+.pagination{
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+  .prev-page, .next-page{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #eee;
+    color:black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    svg{
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+  .box-number{
+    @extend .prev-page, .next-page;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    span{
+      font-size: 15px;
+      font-weight: bolder;
+    }
+  }
+  .active{
+    background-color: black;
+    span{
+      color:white !important;
+    }
+  }
+}
+a{
+  text-decoration: none !important;
+}
